@@ -21,26 +21,26 @@ To create WWT compatible images with certain projections. Tile SDK project is us
 
 ## Client tools:
 There are two clients available for WWT , windows client and web client.
-Windows Client: It is a developed in C# .net technology and contains most of the functionalities which are offered by WWT.
+### Windows Client: It is a developed in C# .net technology and contains most of the functionalities which are offered by WWT.
 Various data set rendering is available through windows client and more can be explored using different search services embedded within the client. 
 It supports tabular data, images and catalog data from various astronomical data sources.
 VO support is available through various vo services and vo tables accessible through the client.
 User controls different data layers required his/her own viewing.
 
-## Web Client:
+### Web Client:
 It is web based tool, It has subset of features available in windows client.
 Web client code has various components associated with it. Core functionality is developed by converting native C# code in javascript using ScriptSharp.
 WegGl is used along with HTML5 for canvas rendering on webpage for 2D and 3D effects.
 
-##Application Programming Interfaces:
+## Application Programming Interfaces:
 There are several apis running in the backend of WWT. Primarily, 
-Layer Control API:  
+### Layer Control API:  
 Most of the functionalities of WWT can be controlled by  Layer control API.  There are different programming interfaces developed to render data in a various format. User can import the data and render on  WWT using these APIs.
 
-HTML5 WebGL:
+### HTML5 WebGL:
 This is a javascript API available for any web applications to embed WWT in their own project. It helps to create custom viewing interfaces, load images or data using VO services or to create different tours for educational purpose.
 
-Web Services API:
+### Web Services API:
 There are several web services used by WWT to gather data, massage and create WWT compatible data format.
 
 
