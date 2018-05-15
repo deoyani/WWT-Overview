@@ -21,7 +21,8 @@ To create WWT compatible images with certain projections. Tile SDK project is us
 
 ## Client tools:
 There are two clients available for WWT , windows client and web client.
-### Windows Client: It is a developed in C# .net technology and contains most of the functionalities which are offered by WWT.
+### Windows Client: 
+It is a developed in C# .net technology and contains most of the functionalities which are offered by WWT.
 Various data set rendering is available through windows client and more can be explored using different search services embedded within the client. 
 It supports tabular data, images and catalog data from various astronomical data sources.
 VO support is available through various vo services and vo tables accessible through the client.
@@ -54,13 +55,12 @@ Windows 7+ system
 Visual Studio 2010 +
 IIS
 
-Working with Windows client:
+## Working with Windows client:
 
 Clone code form git repository
-
- Git clone 
-https://github.com/WorldWideTelescope/wwt-windows-client
-
+`
+ git clone https://github.com/WorldWideTelescope/wwt-windows-client
+`
 Instructions to set up development environment with latest code:
 
 
@@ -73,8 +73,7 @@ Things to Note:
 
 Clone code from following repo
 
-Git clone
-https://github.com/WorldWideTelescope/wwt-web-client
+`git clone https://github.com/WorldWideTelescope/wwt-web-client`
 
 It consists of three sub projects, HTML5SDK, Server, Webclient
 
@@ -83,14 +82,19 @@ To Run WebClient successfully make sure to update nuget packages and clean up th
 
 
 Working with Data processing pipeline: 
+`
 https://github.com/WorldWideTelescope/wwt-tile-sdk 
+`
 
 How to set up and run this code??
  
  
 
 ## Other code:
+
+`
 https://github.com/WorldWideTelescope/worldwide-telescope-pyramid-sdk
+`
 
 What is the relationship between  pyramid sdk and tile-sdk??
 
